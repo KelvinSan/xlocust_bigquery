@@ -64,7 +64,3 @@ def load_data_gs_bucket_json(uri, table_id):
 
     destination_table = bqclient.get_table(table_id)
     print("Loaded {} rows.".format(destination_table.num_rows))
-
-
-if __name__ == "__main__":
-    load_data_gs_bucket_csv(uri="gs://demo-bucket-ks/MOCK_DATA.csv", table_id="moonlit-poetry-327116.users.user-data")
