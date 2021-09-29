@@ -4,3 +4,4 @@ xlocust_bigquery/.env
 /xlocust_bigquery.egg-info/
 dist
 __pycache__
+demo.json
